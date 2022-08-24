@@ -12,6 +12,7 @@ namespace RBD {
     public:
       SerialManager();
       void start();
+      void start(Stream & value);
       void setFlag(char value);
       void setDelimiter(char value);
       bool onReceive();
